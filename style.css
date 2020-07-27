@@ -1,0 +1,29 @@
+body{
+margin: 0;
+padding: 0;
+background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+background-repeat: no-repeat;
+  overflow-y: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.container{
+  max-width: 1170px;
+  margin: auto;
+  height: 1000px;
+  text-align: center;
+}
+
+.col{
+  position: relative;
+  top: 200px;
+}
+
+input{
+padding: 10px 20px;
+width: 400px;
+height: 25px;
+font-size: 1.2rem;
+}
